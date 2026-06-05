@@ -1,3 +1,124 @@
 {
-  "kits": []
+  "kits": [],
+  "hospitals": [
+    {
+      "id": "h1",
+      "_key": "h1",
+      "name": "台大醫院",
+      "address": "台北市中正區中山南路7號",
+      "rooms": [
+        { "id": "cc1", "name": "骨科手術室",   "latOffset":  0.0003, "lngOffset":  0.0004 },
+        { "id": "cc2", "name": "心臟科手術室", "latOffset": -0.0002, "lngOffset":  0.0005 },
+        { "id": "cc3", "name": "急診處置室",   "latOffset":  0.0004, "lngOffset": -0.0003 }
+      ],
+      "costCenters": [
+        { "id": "cc1", "name": "骨科庫" },
+        { "id": "cc2", "name": "心臟科庫" },
+        { "id": "cc3", "name": "急診庫" }
+      ]
+    },
+    {
+      "id": "h2",
+      "_key": "h2",
+      "name": "台北長庚醫院",
+      "address": "台北市松山區敦化北路199號",
+      "rooms": [
+        { "id": "cc4", "name": "神經外科手術室", "latOffset":  0.0003, "lngOffset": -0.0004 },
+        { "id": "cc5", "name": "整形外科手術室", "latOffset": -0.0003, "lngOffset":  0.0003 }
+      ],
+      "costCenters": [
+        { "id": "cc4", "name": "神經外科庫" },
+        { "id": "cc5", "name": "整形外科庫" }
+      ]
+    },
+    {
+      "id": "h3",
+      "_key": "h3",
+      "name": "榮總醫院",
+      "address": "台北市北投區石牌路二段201號",
+      "rooms": [
+        { "id": "cc6", "name": "腫瘤科手術室", "latOffset":  0.0004, "lngOffset":  0.0002 },
+        { "id": "cc7", "name": "泌尿科手術室", "latOffset": -0.0003, "lngOffset": -0.0004 }
+      ],
+      "costCenters": [
+        { "id": "cc6", "name": "腫瘤科庫" },
+        { "id": "cc7", "name": "泌尿科庫" }
+      ]
+    },
+    {
+      "id": "h4",
+      "_key": "h4",
+      "name": "馬偕醫院",
+      "address": "台北市中山區中山北路二段92號",
+      "rooms": [
+        { "id": "cc8", "name": "心臟內科導管室", "latOffset":  0.0002, "lngOffset":  0.0005 },
+        { "id": "cc9", "name": "兒科手術室",     "latOffset": -0.0004, "lngOffset": -0.0002 }
+      ],
+      "costCenters": [
+        { "id": "cc8", "name": "心臟內科庫" },
+        { "id": "cc9", "name": "兒科庫" }
+      ]
+    },
+    {
+      "id": "h5",
+      "_key": "h5",
+      "name": "新光醫院",
+      "address": "台北市士林區文昌路95號",
+      "rooms": [
+        { "id": "cc10", "name": "骨科手術室",     "latOffset":  0.0003, "lngOffset": -0.0003 },
+        { "id": "cc11", "name": "神經外科手術室", "latOffset": -0.0002, "lngOffset":  0.0004 }
+      ],
+      "costCenters": [
+        { "id": "cc10", "name": "骨科庫" },
+        { "id": "cc11", "name": "腦神經庫" }
+      ]
+    },
+    {
+      "id": "h6",
+      "_key": "h6",
+      "name": "亞東醫院",
+      "address": "新北市板橋區南雅南路二段21號",
+      "rooms": [
+        { "id": "cc12", "name": "急診處置室", "latOffset":  0.0003, "lngOffset":  0.0003 },
+        { "id": "cc13", "name": "外科手術室", "latOffset": -0.0003, "lngOffset": -0.0005 }
+      ],
+      "costCenters": [
+        { "id": "cc12", "name": "急診庫" },
+        { "id": "cc13", "name": "外科庫" }
+      ]
+    },
+    {
+      "id": "h7",
+      "_key": "h7",
+      "name": "林口長庚醫院",
+      "address": "桃園市龜山區舊路里頂湖路5號",
+      "rooms": [
+        { "id": "cc14", "name": "器官移植手術室", "latOffset":  0.0002, "lngOffset":  0.0005 },
+        { "id": "cc15", "name": "心臟外科手術室", "latOffset": -0.0004, "lngOffset":  0.0001 },
+        { "id": "cc16", "name": "骨科手術室",     "latOffset":  0.0005, "lngOffset": -0.0003 }
+      ],
+      "costCenters": [
+        { "id": "cc14", "name": "器官移植庫" },
+        { "id": "cc15", "name": "心臟外科庫" },
+        { "id": "cc16", "name": "骨科庫" }
+      ]
+    },
+    {
+      "id": "h8",
+      "_key": "h8",
+      "name": "中山醫學大學附設醫院",
+      "address": "台中市南區建國北路一段110號",
+      "rooms": [
+        { "id": "cc17", "name": "腫瘤科手術室", "latOffset":  0.0003, "lngOffset":  0.0003 },
+        { "id": "cc18", "name": "泌尿科手術室", "latOffset": -0.0002, "lngOffset":  0.0005 },
+        { "id": "cc19", "name": "婦產科手術室", "latOffset":  0.0005, "lngOffset": -0.0002 }
+      ],
+      "costCenters": [
+        { "id": "cc17", "name": "腫瘤科庫" },
+        { "id": "cc18", "name": "泌尿科庫" },
+        { "id": "cc19", "name": "婦產科庫" }
+      ]
+    }
+  ],
+  "materials": []
 }
